@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  background-color: maroon;
+  border: 0;
+  padding: 0;
+}
+body footer {
+  background-color: black;
+  height: 180px;
+}
+
+#left {
+  flex-basis: 50%;
+  background-color: maroon;
+  padding: 20px;
+  color: white;
+}
+#right {
+  flex-basis: 50%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+/* c:hover {
+  transition: 1s;
+  opacity: 1;
+  cursor: pointer;
+} */
+header {
+  padding: 40px;
+  text-align: center;
+  background-image: url(https://starloggers.files.wordpress.com/2019/05/game-of-thrones-season-8-cast.jpg);
+  background-size: cover;
+  background-position-y: 28%;
+  background-repeat: no-repeat;
+  color: white;
+}
+.image-container {
+  display: flex;
+  position: relative;
+}
+#dueler1 {
+  position: relative;
+  background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/game-of-thrones/c/c5/Eddard_stark_and_ice.jpg);
+  width: 80%;
+  height: 400px;
+  background-size: cover;
+}
+
+#dueler2 {
+  position: relative;
+  /* background-image: url(https://hips.hearstapps.com/elleuk.cdnds.net/17/31/768x576/1501747494-game-of-thrones-castles-1501267346.png?resize=1200:*); */
+  width: 80%;
+  height: 400px;
+  background-size: cover;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: maroon;
+  color: white;
+}
+
+#playerstats {
+  padding: 10px;
+  font-size: 20px;
+  width: 20%;
+  background-color: black;
+}
+#enemystats {
+  padding: 10px;
+  font-size: 20px;
+  width: 20%;
+  background-color: maroon;
+}
+
+button {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
